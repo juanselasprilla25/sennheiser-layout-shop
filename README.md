@@ -12,4 +12,4 @@ In the project directory, you can run:
 
 For the "production" view:
 
-### https://sennheiser-test-shop.herokuapp.com/
+### `https://sennheiser-test-shop.herokuapp.com/`
