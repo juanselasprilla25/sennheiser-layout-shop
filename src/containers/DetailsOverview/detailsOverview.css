@@ -1,0 +1,144 @@
+.DetailsOverview-container p {
+  font-family: var(--book);
+  font-size: 1.5rem;
+  color: var(--darkgrey);
+}
+
+.DetailsOverview-container h1 {
+  font-size: 4.6rem;
+  font-family: var(--bold);
+}
+
+.DetailsOverview-container h2 {
+  font-size: 2rem;
+  font-family: var(--bold);
+}
+
+.DetailsOverview-container h3 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  font-family: var(--book);
+}
+
+.DetailsOverview-container a {
+  margin-top: 30px;
+  font-size: 2rem;
+  color: var(--darkgrey);
+  font-family: var(--bold);
+}
+
+.DetailsOverview-container a.active {
+  text-decoration: underline;
+}
+
+.DetailsOverview-container .nav-tabs,
+.DetailsOverview-container .nav-link {
+  border: none;
+}
+
+.DetailsOverview-container .nav-tabs,
+.DetailsOverview-container .nav-link.active {
+  color: black;
+}
+
+.DetailsOverview-container .tab-content {
+  margin-top: 15px;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+  color: var(--darkgrey);
+  font-family: var(--book);
+}
+
+.DetailsOverview-container .box {
+  border: 2px solid var(--lightgrey);
+  border-radius: 10px;
+  padding: 25px 15px;
+  margin: 10px 10px 80px 10px;
+}
+
+.DetailsOverview-container .rowTable {
+  border-top: 2px solid var(--lightgrey);
+  padding: 20px 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DetailsOverview-container .rowTable > p {
+  font-family: var(--book);
+  color: black;
+}
+
+.DetailsOverview-container .marginNone {
+  margin-bottom: 10px;
+}
+
+.DetailsOverview-container .uniqueActive {
+  border: 2px solid var(--primary);
+  box-shadow: none;
+}
+
+.DetailsOverview-container .extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DetailsOverview-container .box:hover {
+  border: 2px solid var(--darkgrey);
+}
+
+.DetailsOverview-container .box:active {
+  border: 2px solid var(--primary);
+  box-shadow: none;
+}
+
+.DetailsOverview-container .box:focus {
+  box-shadow: 0px 0px 10px var(--darkgrey);
+  outline: none;
+}
+
+@media (max-width: 575.98px) {
+  .DetailsOverview-container h1 {
+    font-size: 3rem;
+  }
+
+  .DetailsOverview-container h2 {
+    font-size: 2rem;
+  }
+
+  .DetailsOverview-container h3 {
+    font-size: 2.3rem;
+  }
+
+  .DetailsOverview-container h4 {
+    font-family: var(--bold);
+    color: black;
+  }
+
+  .DetailsOverview-container .box {
+    margin: 10px 10px 30px 10px;
+  }
+
+  .DetailsOverview-container .nav-tabs,
+  .DetailsOverview-container .nav-link {
+    font-size: 1.4rem;
+  }
+
+  .DetailsOverview-container .rowTable {
+    display: block;
+    /* color:; */
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

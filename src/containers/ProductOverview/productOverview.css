@@ -1,0 +1,75 @@
+.ProductOverview-container {
+  margin-bottom: 50px;
+}
+
+.ProductOverview-container img {
+  width: 100%;
+  border: 3px solid var(--lightgrey);
+  border-radius: 10px;
+}
+
+.ProductOverview-container .bigImage img {
+  width: 100%;
+  height: 360px;
+}
+
+.ProductOverview-container .bigImage {
+  margin-bottom: 20px;
+}
+
+.ProductOverview-container .smallImage img {
+  height: 100px;
+}
+
+.ProductOverview-container .features {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.ProductOverview-container .features p {
+  font-size: 1.4rem;
+  font-family: var(--book);
+}
+
+.ProductOverview-container .features img {
+  width: 54px;
+  height: auto;
+  border: none;
+}
+
+.ProductOverview-container .bigImage img:hover,
+.ProductOverview-container .smallImage img:hover {
+  border: 3px solid var(--darkgrey);
+}
+
+.ProductOverview-container .bigImage img:active,
+.ProductOverview-container .smallImage img:active {
+  border: 3px solid var(--primary);
+  box-shadow: none;
+}
+
+.ProductOverview-container .bigImage img:focus,
+.ProductOverview-container .smallImage img:focus {
+  box-shadow: 0px 0px 10px var(--darkgrey);
+  outline: none;
+}
+
+@media (max-width: 575.98px) {
+  .ProductOverview-container .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}

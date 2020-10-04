@@ -1,13 +1,67 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --book: "Circular Std Book";
+  --bold: "Circular Std Bold";
+  --medium: "Circular Std Medium";
+  --lightgrey: #eff0f3;
+  --darkgrey: rgb(113, 114, 121);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 100px;
+}
+
+.bold {
+  font-family: var(--bold);
+}
+.book {
+  font-family: var(--book);
+}
+.medium {
+  font-family: var(--medium);
+}
+
+.darkgrey {
+  color: var(--darkgrey);
+}
+
+.mainContent {
+  min-height: 100vh;
+  margin-bottom: 200px;
+}
+
+.mainContent::after {
+  content: "";
+  display: block;
+  height: 200px;
+}
+
+.colored {
+  color: red;
+  font-size: 1.2rem;
+  font-family: var(--book);
+}
+
+@media (max-width: 575.98px) {
+  body {
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
 }

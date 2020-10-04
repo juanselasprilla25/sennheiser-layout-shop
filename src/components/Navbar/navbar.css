@@ -1,0 +1,22 @@
+.NavBar-container {
+  border-bottom: 1px solid var(--lightgrey);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar-container img {
+  width: 56px;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
