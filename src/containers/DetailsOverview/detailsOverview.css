@@ -100,7 +100,7 @@
 
 @media (max-width: 575.98px) {
   .DetailsOverview-container h1 {
-    font-size: 3rem;
+    font-size: 3.4rem;
   }
 
   .DetailsOverview-container h2 {
@@ -113,7 +113,7 @@
 
   .DetailsOverview-container h4 {
     font-family: var(--bold);
-    color: black;
+    /* color: var(--darkgrey); */
   }
 
   .DetailsOverview-container .box {

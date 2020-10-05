@@ -15,8 +15,9 @@
 
 .Footer-container button {
   font-size: 1.5rem;
-  padding: 1px 20px;
+  padding: 5px 20px;
   font-family: var(--bold);
+  border-radius: 10px;
 }
 
 .Footer-container button:hover {
@@ -39,4 +40,29 @@
 .Footer-container .text {
   padding-right: 20px;
   line-height: 1.5rem;
+}
+
+@media (max-width: 575.98px) {
+  .Footer-container {
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  .Footer-container button {
+    padding: 15px 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
 }

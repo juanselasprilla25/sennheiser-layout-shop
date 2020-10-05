@@ -33,14 +33,20 @@ export default class Footer extends Component {
             </div>
           </div>
           <div className='col d-none d-lg-block'></div>
-          <div className='col-md-7 col-lg-4 buy'>
-            <div className='text'>
-              <h1 className='bold'>$ {this.props.price}</h1>
-              <p className='darkgrey' tabIndex='0'>
-                Need financing? Learn more
-              </p>
+          <div className='col-sm-12 col-md-7 col-lg-4 buy'>
+            <div className='row'>
+              <div className='col-sm-12 col-md-8 col-lg-8'>
+                <div className='text'>
+                  <h1 className='bold'>$ {this.props.price}</h1>
+                  <p className='darkgrey' tabIndex='0'>
+                    Need financing? Learn more
+                  </p>
+                </div>
+              </div>
+              <div className='col-sm-12 col-md-3 col-lg-3'>
+                <Button variant='primary'>Buy now</Button>
+              </div>
             </div>
-            <Button variant='primary'>Buy now</Button>
           </div>
         </div>
       </footer>

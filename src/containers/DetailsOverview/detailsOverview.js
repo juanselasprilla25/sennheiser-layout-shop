@@ -23,7 +23,7 @@ export default class DetailsOverview extends Component {
         <span className='colored'>NEW RELEASE</span>
         <h1 tabIndex='0'>MOMENTUM True Wireless 2</h1>
         <h3 className='darkgrey'>Earbuds that put sound first</h3>
-        <h4>STARTING AT</h4>
+        <h4 className='darkgrey'>STARTING AT</h4>
         <h1 tabIndex='0'>$ {this.props.price}</h1>
         <Tabs className='tab' defaultActiveKey='overview'>
           <Tab eventKey='overview' title='Overview' tabIndex='0'>
@@ -116,7 +116,7 @@ export default class DetailsOverview extends Component {
                 this.props.setPrice(this.props.price - this.state.SumLow);
               }}
             >
-              <div className='col-8'>
+              <div className='colsm-12 col-lg-8'>
                 <h4>Voice Assistant support</h4>
               </div>
             </div>
