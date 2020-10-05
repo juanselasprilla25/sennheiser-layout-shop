@@ -6,7 +6,7 @@ of sound technology.
 This project is based on React Js and Bootstrap; has some basic interactivity
 in the image and button elements. Also has the starting base for the SEO of the web app.
 
-In the project directory, you can run:
+In the project directory, you can run the porject in 'development' mode:
 
 ### `npm start`
 
