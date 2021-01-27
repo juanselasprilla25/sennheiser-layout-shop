@@ -1,4 +1,4 @@
-This project was created for a especific job interview for SEREMPRE.
+This project was created for a specific React App
 
 The project shows the development of a single page view for an e-commerce web
 of sound technology.
@@ -12,4 +12,4 @@ In the project directory, you can run the porject in 'development' mode:
 
 For the "production" view:
 
-### `https://sennheiser-test-shop.herokuapp.com/`
+### Functionability in [https://sennheiser-test-shop.herokuapp.com/]
